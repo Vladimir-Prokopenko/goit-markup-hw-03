@@ -19,214 +19,216 @@
   <body>
     <!-- Шапка Портфолио -->
     <header class="header-page">
-      <nav class="header-nav">
-        <a href="./index.html" lang="en" class="header-logo link-no-underline"
+      <div class="container">
+        <a href="./index.html" lang="en" class="header-logo link-reset"
           ><span class="accent">Web</span>Studio</a
         >
-        <ul class="header-list list-reset">
-          <li>
-            <a href="./index.html" class="nav-link link-no-underline">Студия</a>
-          </li>
+        <nav class="header-nav">
+          <ul class="header-list list-reset">
+            <li>
+              <a href="./index.html" class="nav-link link-reset">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="nav-link link-reset current"
+                >Портфолио</a
+              >
+            </li>
+            <li>
+              <a href="./contacts.html" class="nav-link link-reset">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts list-reset">
           <li>
             <a
-              href="./portfolio.html"
-              class="nav-link link-no-underline current"
-              >Портфолио</a
+              href="mailto:info@devstudio.com"
+              class="header-contacts-link link-reset"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="./contacts.html" class="nav-link link-no-underline"
-              >Контакты</a
+            <a href="tel:+380961111111" class="header-contacts-link link-reset"
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
-      </nav>
-      <ul class="header-contacts list-reset">
-        <li>
-          <a
-            href="mailto:info@devstudio.com"
-            class="header-contacts-link link-no-underline"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a
-            href="tel:+380961111111"
-            class="header-contacts-link link-no-underline"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!-- Секция Портфолио -->
       <section>
-        <h1 class="visually-hidden">Страница портфолио</h1>
+        <div class="container">
+          <h1 class="visually-hidden">Страница портфолио</h1>
 
-        <!-- Фильтрация на странице -->
-        <ul class="filter-list list-reset">
-          <li>
-            <button type="button" class="filter-button btn-active">Все</button>
-          </li>
-          <li>
-            <button type="button" class="filter-button">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="filter-button">Приложения</button>
-          </li>
-          <li><button type="button" class="filter-button">Дизайн</button></li>
-          <li>
-            <button type="button" class="filter-button">Маркетинг</button>
-          </li>
-        </ul>
+          <!-- Фильтрация на странице -->
+          <ul class="filter-list list-reset">
+            <li>
+              <button type="button" class="filter-button btn-active">
+                Все
+              </button>
+            </li>
+            <li>
+              <button type="button" class="filter-button">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="filter-button">Приложения</button>
+            </li>
+            <li><button type="button" class="filter-button">Дизайн</button></li>
+            <li>
+              <button type="button" class="filter-button">Маркетинг</button>
+            </li>
+          </ul>
 
-        <!-- Список наших работ -->
-        <ul class="list-reset">
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/technokryak.jpg"
-                alt="Технокряк"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Технокряк</h2>
-              <p class="artic-text">Веб-сайт</p></a
-            >
-          </li>
+          <!-- Список наших работ -->
+          <ul class="list-reset">
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/technokryak.jpg"
+                  alt="Технокряк"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Технокряк</h2>
+                <p class="artic-text">Веб-сайт</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/new-orlean.jpg"
-                alt="Постер Новый Орлеан против Голден Стар"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Постер New Orlean vs Golden Star</h2>
-              <p class="artic-text">Дизайн</p></a
-            >
-          </li>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/new-orlean.jpg"
+                  alt="Постер Новый Орлеан против Голден Стар"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Постер New Orlean vs Golden Star</h2>
+                <p class="artic-text">Дизайн</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/seafood.jpg"
-                alt="Ресторан Seafood"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Ресторан Seafood</h2>
-              <p class="artic-text">Приложение</p></a
-            >
-          </li>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/seafood.jpg"
+                  alt="Ресторан Seafood"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Ресторан Seafood</h2>
+                <p class="artic-text">Приложение</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/prime-project.jpg"
-                alt="Проект Prime"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Проект Prime</h2>
-              <p class="artic-text">Маркетинг</p></a
-            >
-          </li>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/prime-project.jpg"
+                  alt="Проект Prime"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Проект Prime</h2>
+                <p class="artic-text">Маркетинг</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/boxes-project.jpg"
-                alt="Проект Boxes"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Проект Boxes</h2>
-              <p class="artic-text">Приложение</p></a
-            >
-          </li>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/boxes-project.jpg"
+                  alt="Проект Boxes"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Проект Boxes</h2>
+                <p class="artic-text">Приложение</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/borders.jpg"
-                alt="У вдохновения нет границ"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Inspiration has no Borders</h2>
-              <p class="artic-text">Веб-сайт</p></a
-            >
-          </li>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/borders.jpg"
+                  alt="У вдохновения нет границ"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Inspiration has no Borders</h2>
+                <p class="artic-text">Веб-сайт</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/limited-edition.jpg"
-                alt="Издание Limited Edition"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Издание Limited Edition</h2>
-              <p class="artic-text">Дизайн</p></a
-            >
-          </li>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/limited-edition.jpg"
+                  alt="Издание Limited Edition"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Издание Limited Edition</h2>
+                <p class="artic-text">Дизайн</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/lab-project.jpg"
-                alt="Проект LAB"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Проект LAB</h2>
-              <p class="artic-text">Маркетинг</p></a
-            >
-          </li>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/lab-project.jpg"
+                  alt="Проект LAB"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Проект LAB</h2>
+                <p class="artic-text">Маркетинг</p></a
+              >
+            </li>
 
-          <li>
-            <a href="#" class="link-no-underline"
-              ><img
-                src="./images/technokryak.jpg"
-                alt="Растущий бизнес"
-                width="370"
-                height="294"
-              />
-              <h2 class="artic-title">Growing Business</h2>
-              <p class="artic-text">Приложение</p></a
-            >
-          </li>
-        </ul>
+            <li>
+              <a href="#" class="link-reset"
+                ><img
+                  src="./images/technokryak.jpg"
+                  alt="Растущий бизнес"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="artic-title">Growing Business</h2>
+                <p class="artic-text">Приложение</p></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Подвал Портфолио -->
     <footer class="footer-page">
-      <a href="./index.html" lang="en" class="footer-logo link-no-underline"
-        ><span class="accent">Web</span>Studio</a
-      >
-      <address class="footer-address">
-        <ul class="list-reset">
-          <li class="footer-address-item">г. Киев, пр-т Леси Украинки, 26</li>
-          <li>
-            <a
-              href="mailto:info@example.com"
-              class="footer-contacts-link link-no-underline"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a
-              href="tel:+380991111111"
-              class="footer-contacts-link link-no-underline"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" lang="en" class="footer-logo link-reset"
+          ><span class="accent">Web</span>Studio</a
+        >
+        <address class="footer-address">
+          <ul class="list-reset">
+            <li class="footer-address-item">г. Киев, пр-т Леси Украинки, 26</li>
+            <li>
+              <a
+                href="mailto:info@example.com"
+                class="footer-contacts-link link-reset"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="tel:+380991111111"
+                class="footer-contacts-link link-reset"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

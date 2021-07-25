@@ -19,41 +19,37 @@
   <body>
     <!-- Шапка Студия -->
     <header class="header-page">
-      <div class="container">
+      <div class="container header-main">
         <nav class="header-nav">
-          <a href="./index.html" lang="en" class="header-logo link-no-underline"
+          <a href="./index.html" lang="en" class="header-logo link-reset"
             ><span class="accent">Web</span>Studio</a
           >
           <ul class="header-list list-reset">
-            <li>
-              <a href="./index.html" class="nav-link link-no-underline current"
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link link-reset current"
                 >Студия</a
               >
             </li>
-            <li>
-              <a href="./portfolio.html" class="nav-link link-no-underline"
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link link-reset"
                 >Портфолио</a
               >
             </li>
-            <li>
-              <a href="./contacts.html" class="nav-link link-no-underline"
-                >Контакты</a
-              >
+            <li class="nav-item">
+              <a href="./contacts.html" class="nav-link link-reset">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="header-contacts list-reset">
-          <li>
+          <li class="nav-item">
             <a
               href="mailto:info@devstudio.com"
-              class="header-contacts-link link-no-underline"
+              class="header-contacts-link link-reset"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a
-              href="tel:+380961111111"
-              class="header-contacts-link link-no-underline"
+          <li class="nav-item">
+            <a href="tel:+380961111111" class="header-contacts-link link-reset"
               >+38 096 111 11 11</a
             >
           </li>
@@ -64,8 +60,10 @@
     <main>
       <!-- Секция герой -->
       <section class="hero-section">
-        <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button">Заказать услугу</button>
+        <div class="hero-box-title">
+          <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-button">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- Секция особенности -->
@@ -110,110 +108,116 @@
 
       <!-- Секция о нас -->
       <section class="about-section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list-reset">
-          <li>
-            <img
-              src="./images/desktop.jpg"
-              alt="Компьютера"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/mobile.jpg"
-              alt="Мобильные устройства"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/tablet.jpg"
-              alt="Планшеты"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list-reset">
+            <li>
+              <img
+                src="./images/desktop.jpg"
+                alt="Компьютера"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/mobile.jpg"
+                alt="Мобильные устройства"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/tablet.jpg"
+                alt="Планшеты"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Секция команда -->
       <section class="team-section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="list-reset">
-          <li class="team-item">
-            <img
-              src="./images/igor-demyanenko.jpg"
-              alt="Игорь Демьяненко"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-title">Игорь Демьяненко</h3>
-            <p lang="en" class="team-text">Product Designer</p>
-          </li>
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list-reset">
+            <li class="team-item">
+              <img
+                src="./images/igor-demyanenko.jpg"
+                alt="Игорь Демьяненко"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-title">Игорь Демьяненко</h3>
+              <p lang="en" class="team-text">Product Designer</p>
+            </li>
 
-          <li class="team-item">
-            <img
-              src="./images/olga-repina.jpg"
-              alt="Ольга Репина"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-title">Ольга Репина</h3>
-            <p lang="en" class="team-text">Frontend Developer</p>
-          </li>
+            <li class="team-item">
+              <img
+                src="./images/olga-repina.jpg"
+                alt="Ольга Репина"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-title">Ольга Репина</h3>
+              <p lang="en" class="team-text">Frontend Developer</p>
+            </li>
 
-          <li class="team-item">
-            <img
-              src="./images/nikolay-tarasov.jpg"
-              alt="Николай Тарасов"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-title">Николай Тарасов</h3>
-            <p lang="en" class="team-text">Marketing</p>
-          </li>
+            <li class="team-item">
+              <img
+                src="./images/nikolay-tarasov.jpg"
+                alt="Николай Тарасов"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-title">Николай Тарасов</h3>
+              <p lang="en" class="team-text">Marketing</p>
+            </li>
 
-          <li class="team-item">
-            <img
-              src="./images/mikhail-ermakov.jpg"
-              alt="Михаил Ермаков"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-title">Михаил Ермаков</h3>
-            <p lang="en" class="team-text">UI Designer</p>
-          </li>
-        </ul>
+            <li class="team-item">
+              <img
+                src="./images/mikhail-ermakov.jpg"
+                alt="Михаил Ермаков"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-title">Михаил Ермаков</h3>
+              <p lang="en" class="team-text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Подвал Студия -->
     <footer class="footer-page">
-      <a href="./index.html" lang="en" class="footer-logo link-no-underline"
-        ><span class="accent">Web</span>Studio</a
-      >
-      <address class="footer-address">
-        <ul class="list-reset">
-          <li class="footer-address-item">г. Киев, пр-т Леси Украинки, 26</li>
-          <li>
-            <a
-              href="mailto:info@example.com"
-              class="footer-contacts-link link-no-underline"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a
-              href="tel:+380991111111"
-              class="footer-contacts-link link-no-underline"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" lang="en" class="footer-logo link-reset"
+          ><span class="accent">Web</span>Studio</a
+        >
+        <address class="footer-address">
+          <ul class="list-reset">
+            <li class="footer-address-item">г. Киев, пр-т Леси Украинки, 26</li>
+            <li>
+              <a
+                href="mailto:info@example.com"
+                class="footer-contacts-link link-reset"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="tel:+380991111111"
+                class="footer-contacts-link link-reset"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

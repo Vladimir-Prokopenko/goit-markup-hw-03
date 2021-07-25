@@ -3,8 +3,8 @@
   --logo-color: #000000; /* цвет лого heared*/
   --header-color: #212121; /* цвет ссылок header и заголовки h2, h3 */
   --text-color: #757575; /* цвет текста */
+  --border-color: #ececec; /* цвет header border*/
   --accent-color: #2196f3; /* цвет акцент */
-  --accent-herobtn-color: #188ce8; /* цвет hero-button hoher */
   --footer-link-color: rgba(
     255,
     255,
@@ -16,6 +16,7 @@
 
   --gap-header: 30px;
   --gap-title: 10px;
+  --gap-header: 50px;
 }
 
 /* Страница Студия */
@@ -45,7 +46,7 @@ p {
   padding: 0;
 }
 
-.link-no-underline {
+.link-reset {
   text-decoration: none;
 }
 
@@ -82,6 +83,26 @@ p {
 }
 
 /* Стили шапки */
+.header-page {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav,
+.header-list,
+.header-contacts,
+.nav-item {
+  display: flex;
+}
+
+.nav-item + .nav-item {
+  margin-left: var(--gap-header);
+}
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -90,6 +111,10 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--logo-color);
+
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo:hover,
@@ -105,6 +130,9 @@ p {
   letter-spacing: 0.02em;
 
   color: var(--header-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-contacts-link {
@@ -114,6 +142,9 @@ p {
   letter-spacing: 0.02em;
 
   color: var(--text-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .accent,
@@ -130,6 +161,17 @@ p {
   text-align: center;
 
   background-color: var(--prime-background);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-box-title {
+  width: 696px;
 }
 
 .page-title {
