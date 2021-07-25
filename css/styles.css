@@ -367,6 +367,22 @@ p {
 }
 
 /* Страница Портфолио */
+.section-portfolio {
+  padding-top: var(--gap-section);
+  padding-bottom: var(--gap-section);
+}
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 34px;
+}
+
+.filter-item + .filter-item {
+  margin-left: 8px;
+}
+
 .filter-button {
   padding: 6px 32px;
 
