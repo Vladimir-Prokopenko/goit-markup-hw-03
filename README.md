@@ -1,4 +1,4 @@
 <!--
 
-цвет header border #ECECEC
+
 -->

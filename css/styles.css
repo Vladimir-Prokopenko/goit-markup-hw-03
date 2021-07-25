@@ -422,3 +422,10 @@ p {
 
   color: var(--text-color);
 }
+
+/* Страница контакты */
+
+.section-contacts {
+  padding-top: var(--gap-section);
+  padding-bottom: var(--gap-section);
+}
