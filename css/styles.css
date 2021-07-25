@@ -17,6 +17,7 @@
   --gap-title: 10px;
   --gap-item: 30px;
   --gap-header: 50px;
+  --gap-footer: 60px;
   --gap-section: 94px;
 }
 
@@ -310,6 +311,9 @@ p {
 /* Стили подвала */
 
 .footer-page {
+  padding-top: var(--gap-footer);
+  padding-bottom: var(--gap-footer);
+
   background-color: var(--prime-background);
 }
 
@@ -319,6 +323,9 @@ p {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  display: block;
+  margin-bottom: 20px;
 
   color: var(--prime-color);
 }
@@ -337,7 +344,13 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
+  margin-bottom: 9px;
+
   color: var(--prime-color);
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 
 .footer-contacts-link {
