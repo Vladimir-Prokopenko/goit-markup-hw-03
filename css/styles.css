@@ -243,6 +243,24 @@ p {
   color: var(--text-color);
 }
 
+/* Секция о нас */
+
+.about-section {
+  padding-bottom: var(--gap-section);
+}
+
+.about-title {
+  margin-bottom: var(--gap-header);
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-item + .about-item {
+  margin-left: var(--gap-item);
+}
+
 /* Секция команда */
 
 .team-section {
