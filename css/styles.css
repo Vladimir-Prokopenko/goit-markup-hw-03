@@ -14,9 +14,10 @@
   --prime-background: #2f303a; /* цвет вторичного фона */
   --secondary-background: #f5f4fa; /* цвет фона команда, фон основной кнопки портфолио*/
 
-  --gap-header: 30px;
   --gap-title: 10px;
+  --gap-item: 30px;
   --gap-header: 50px;
+  --gap-section: 94px;
 }
 
 /* Страница Студия */
@@ -182,7 +183,7 @@ p {
   text-transform: uppercase;
 
   color: var(--prime-color);
-  margin-bottom: var(--gap-header);
+  margin-bottom: var(--gap-item);
 }
 
 .hero-button {
@@ -209,6 +210,19 @@ p {
 }
 
 /* Секция особенности */
+
+.features-section {
+  padding-top: var(--gap-section);
+  padding-bottom: var(--gap-section);
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-item + .features-item {
+  margin-left: var(--gap-item);
+}
 
 .features-title {
   font-weight: 700;
