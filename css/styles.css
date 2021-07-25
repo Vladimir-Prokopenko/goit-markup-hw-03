@@ -13,6 +13,9 @@
   ); /* цвет ссылок адреса в footer */
   --prime-background: #2f303a; /* цвет вторичного фона */
   --secondary-background: #f5f4fa; /* цвет фона команда, фон основной кнопки портфолио*/
+
+  --gap-header: 30px;
+  --gap-title: 10px;
 }
 
 /* Страница Студия */
@@ -24,8 +27,22 @@ body {
   background-color: var(--prime-color);
 }
 
-.list-no-underline {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.list-reset {
   list-style: none;
+
+  padding: 0;
+  margin: 0;
 }
 
 .link-no-underline {
@@ -52,17 +69,6 @@ body {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-}
-
-.page-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: var(--prime-color);
 }
 
 .section-title {
@@ -120,7 +126,20 @@ body {
 
 /* Секция герой */
 .hero-section {
+  text-align: center;
+
   background-color: var(--prime-background);
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--prime-color);
+  margin-bottom: var(--gap-header);
 }
 
 .hero-button {
@@ -155,6 +174,8 @@ body {
   text-transform: uppercase;
 
   color: var(--header-color);
+
+  margin-bottom: var(--gap-title);
 }
 
 .features-text {
