@@ -49,12 +49,6 @@ body {
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /* 2 */
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 /*
 Grouping content
 ================

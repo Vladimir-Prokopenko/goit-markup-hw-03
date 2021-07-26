@@ -38,7 +38,12 @@ h5,
 h6,
 p {
   margin: 0;
-  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list-reset {
@@ -406,6 +411,26 @@ p {
   background-color: var(--accent-color);
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--gap-item));
+  margin-left: calc(-1 * var(--gap-item));
+}
+
+.portfolio-item {
+  flex-basis: calc(100% / 3 - var(--gap-item));
+  margin-top: var(--gap-item);
+  margin-left: var(--gap-item);
+}
+
+.artic-content {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
 .artic-title {
   font-weight: 700;
   font-size: 18px;
@@ -419,6 +444,8 @@ p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+
+  margin-top: 4px;
 
   color: var(--text-color);
 }
