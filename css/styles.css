@@ -291,13 +291,17 @@ img {
   margin-left: var(--gap-item);
 }
 
+.team-content {
+  padding-top: var(--gap-item);
+  padding-bottom: var(--gap-item);
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
 
-  margin-top: var(--gap-item);
   margin-bottom: 10px;
 
   color: var(--header-color);
@@ -307,8 +311,6 @@ img {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-
-  margin-bottom: var(--gap-item);
 
   color: var(--text-color);
 }
@@ -381,7 +383,7 @@ img {
   display: flex;
   justify-content: center;
 
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-item + .filter-item {
@@ -389,7 +391,7 @@ img {
 }
 
 .filter-button {
-  padding: 6px 32px;
+  padding: 6px 22px;
 
   font-family: inherit;
   font-weight: 500;
