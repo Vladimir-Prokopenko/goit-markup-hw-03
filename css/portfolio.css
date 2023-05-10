@@ -1,11 +1,25 @@
+.portfolio-page {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+
 .portfolio-button {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  background: #f5f4fa;
   color: var(--title-color);
-  cursor: pointer;
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
@@ -17,7 +31,34 @@
   border-radius: 4px;
 }
 
+.portfolio-our-work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio-item {
+  overflow: hidden;
+  flex-basis: calc((100% - 60px) / 3);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-thumb-content {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .portfolio-title {
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

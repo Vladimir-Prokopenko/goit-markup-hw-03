@@ -13,9 +13,53 @@
   /* акцентний колір */
   --accent-color: #2196f3;
 }
+
+/* загальні стилі */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
 }
 
 .visually-hidden {
@@ -32,24 +76,36 @@ body {
   overflow: hidden;
 }
 
-.list-none {
-  list-style: none;
-}
-
-.link-none {
-  text-decoration: none;
-}
-
-address {
-  font-style: normal;
-}
-
 .header-link.current {
   color: var(--accent-color);
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* шапка сторінки сайту */
+.header-page {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+
 .header-logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 93px;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -62,7 +118,17 @@ address {
   color: var(--accent-color);
 }
 
+.header-list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  gap: 50px;
+}
+
 .header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -75,7 +141,16 @@ address {
   color: var(--accent-color);
 }
 
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+
 .header-contacts-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -90,10 +165,14 @@ address {
 
 /* футер сайту вебстудия */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -104,6 +183,10 @@ address {
 
 .footer-logo-accent {
   color: var(--accent-color);
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 
 .footer-link-address {
