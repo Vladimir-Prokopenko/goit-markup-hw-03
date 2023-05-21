@@ -38,14 +38,14 @@
 }
 
 .portfolio-item {
-  overflow: hidden;
   flex-basis: calc((100% - 60px) / 3);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 }
 
 .portfolio-link {
   display: block;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .portfolio-thumb-content {

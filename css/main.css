@@ -118,6 +118,14 @@ address {
   color: var(--accent-color);
 }
 
+.header-logo:hover {
+  color: var(--accent-color);
+}
+
+.header-logo:hover .header-logo-accent {
+  color: var(--dark-color-text);
+}
+
 .header-list {
   display: flex;
   margin: 0;
@@ -183,6 +191,14 @@ address {
 
 .footer-logo-accent {
   color: var(--accent-color);
+}
+
+.footer-logo:hover {
+  color: var(--accent-color);
+}
+
+.footer-logo:hover .footer-logo-accent {
+  color: var(--light-color);
 }
 
 .footer-item {
